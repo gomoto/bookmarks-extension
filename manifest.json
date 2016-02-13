@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Extension Name",
+  "version": "0.0.0",
+
+  "description": "Sample Extension",
+
+  "browser_action": {
+    "default_icon": {
+      "19": "icon19.png",
+      "38": "icon19.png"
+    },
+    "default_title": "Tooltip text",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "activeTab",
+    "bookmarks",
+    "https://ajax.googleapis.com/"
+  ]
+}
